@@ -1,0 +1,43 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 600px;
+
+}
+.box-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.device-option-wrap{
+    display: flex;
+
+}
+.device-option{
+    margin-right: 12px;
+}
+.button-noti{
+    margin-top: 24px;
+}
+.login-box.control{
+    border: 1px solid ;
+    box-shadow: 0px 0px 2px;
+    padding: 24px;
+    margin-bottom: 12px;
+}
+/* Tùy chỉnh thanh scrollbar cho tất cả các trình duyệt (trừ Firefox) */
+::-webkit-scrollbar {
+    width: 12px; /* Độ rộng của thanh scrollbar */
+  }
+  
+
+  
+
+  
+  /* Tùy chỉnh thanh scrollbar cho Firefox */

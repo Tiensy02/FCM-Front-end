@@ -1,0 +1,32 @@
+.image-upload-title{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.btn-upload-image{
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-right: 8px;
+    margin-left: 12px;
+}
+.image-preview{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 16px;
+}
+.image-preview-item{
+    position: relative;
+}
+.image-wrap{
+    display: flex;
+    align-items: center;
+}
+.close-image{
+    position:absolute;
+    top:-10px;
+    right: -6px;
+}

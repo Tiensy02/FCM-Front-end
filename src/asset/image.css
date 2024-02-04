@@ -1,0 +1,25 @@
+.image-wrap{
+    display: flex;
+    column-gap: 12px;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0.4px ;
+    padding: 12px;
+    overflow: scroll;
+    flex: 0 0;
+    row-gap: 12px;
+    scrollbar-color: #3498db #f1f1f1; /* scrollbar-color: thumb-color track-color; */
+    scrollbar-width: thin; /* Độ rộng của thanh scrollbar */
+}
+.image-elm{
+    width: 100px;
+    height: 100px;   
+    background-size: cover;
+}
+.action-image{
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
